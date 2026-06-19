@@ -13,7 +13,7 @@
 <div align="center">
 
 [![Gmail](https://img.shields.io/badge/amangourkhede03%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:amangourkhede03@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-aman--gourkhede-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/aman-gourkhede)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-aman--gourkhede-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aman-gourkhede-029869279)
 [![Portfolio](https://img.shields.io/badge/Portfolio-aman--gourkhede.vercel.app-6E57F7?style=flat-square&logo=vercel&logoColor=white)](https://aman-gourkhede-portfolio.vercel.app)
 [![Location](https://img.shields.io/badge/Nagpur%2C%20India-🇮🇳-FF9933?style=flat-square)](https://github.com/AmanGourkhede)
 
