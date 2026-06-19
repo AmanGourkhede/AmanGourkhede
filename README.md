@@ -54,9 +54,20 @@ class AmanGourkhede:
 ---
 
 ### 🤖 MRDS — Model Regression Detection System
-> CI/CD-style pipeline that continuously tests LLM classifiers against a 60-sample golden dataset, detects quality regressions, and fires real-time Slack alerts. Live Streamlit dashboard, HTML trend reports, and GitHub Actions integration.
+> A production-grade **CI/CD eval pipeline** for LLM-powered classifiers — built entirely from scratch with local open-source models. Tests an email support classifier against a **hand-crafted 60-sample golden dataset** (4 categories, 3 difficulty tiers, edge cases: typos, sarcasm, multilingual), detects quality regressions across prompt versions, and alerts the team in real time.
 
-`Python 3.11` `Ollama` `llama3.2` `Pydantic v2` `SQLite` `Streamlit` `sentence-transformers` `Docker` `GitHub Actions`
+| Detail | Value |
+|--------|-------|
+| 📊 Golden Dataset | 60 samples — easy / medium / hard, 4 categories |
+| 🔍 Scoring Signals | Category match + LLM-as-judge (1–5) + BGE embedding cosine similarity |
+| 📉 Regression Detection | 7-run moving average drift detection + per-sample diff |
+| 🚨 Alerting | Slack Block Kit alerts with tenacity retry |
+| 📈 Dashboard | Live Streamlit UI with Plotly trend charts, auto-refresh |
+| 🐳 Infra | Docker multi-stage build, GitHub Actions CI, git pre-push hook |
+| 🧠 Model | llama3.2:1b via Ollama — fully local, no API keys |
+| 🔁 Retry Pattern | JSON nudge retry (3 attempts) for small-model JSON compliance |
+
+`Python 3.11` `Ollama` `llama3.2` `Pydantic v2` `SQLite` `Streamlit` `Plotly` `sentence-transformers` `Docker` `GitHub Actions` `Jinja2` `asyncio`
 
 ---
 
