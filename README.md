@@ -80,6 +80,7 @@ class AmanGourkhede:
 | 📈 Improvement | +8% over single-model baseline |
 | 🗃️ Dataset | HAM10000 + ISIC 2024 |
 | 🔧 Key technique | CNN + ResNet50 ensemble + BlackHat hair removal |
+| 🚀 Live Demo | [🤗 Try it on Hugging Face](https://huggingface.co/spaces/AmanDinesh/skin-cancer-detection) |
 
 `TensorFlow` `Keras` `ResNet50` `OpenCV` `CNN` `Transfer Learning` `Data Augmentation` `HAM10000`
 
