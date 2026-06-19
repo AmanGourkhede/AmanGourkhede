@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6E57F7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Building+AI+systems+that+actually+work+in+production;LLMs+%7C+Eval+Pipelines+%7C+Python+%7C+Open+Source)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6E57F7&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=AI+Engineer+%7C+Deep+Learning+%7C+LLM+Systems;Building+AI+that+works+in+the+real+world+%F0%9F%9A%80;From+Skin+Cancer+Detection+to+LLM+Eval+Pipelines)](https://git.io/typing-svg)
 
 </div>
 
@@ -17,24 +17,45 @@
 ```python
 class AmanGourkhede:
     role       = "AI Engineer & Builder"
-    focus      = ["LLM Systems", "Eval Pipelines", "AI Automation"]
+    focus      = ["LLM Systems", "Deep Learning", "Medical AI", "Eval Pipelines"]
+    education  = "B.E. — Machine Learning Engineer (2025)"
     currently  = "Building production-grade AI tools with open-source models"
     learning   = ["LangChain", "RAG Systems", "MLOps"]
-    ask_me     = "Anything about Python, LLMs, or building AI from scratch"
-    fun_fact   = "I run LLMs locally before trusting them in production 🔍"
+    ask_me     = "Python, LLMs, Deep Learning, or building AI from scratch"
+    fun_fact   = "I built a skin cancer classifier before building an LLM eval pipeline 🔬"
 ```
 
 ---
 
-## 🚀 Featured Project
+## 🚀 Featured Projects
 
 <div align="center">
 
-[![MRDS Card](https://github-readme-stats.vercel.app/api/pin/?username=AmanGourkhede&repo=MRDS&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6E57F7&icon_color=6E57F7)](https://github.com/AmanGourkhede/MRDS)
+[![MRDS](https://github-readme-stats.vercel.app/api/pin/?username=AmanGourkhede&repo=MRDS&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6E57F7&icon_color=6E57F7)](https://github.com/AmanGourkhede/MRDS)
+[![MedScan AI](https://github-readme-stats.vercel.app/api/pin/?username=AmanGourkhede&repo=skin-cancer-detection-ai&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6E57F7&icon_color=6E57F7)](https://github.com/AmanGourkhede/skin-cancer-detection-ai)
 
 </div>
 
-> **Model Regression Detection System** — A CI/CD-style pipeline that continuously tests LLM-powered classifiers against a golden dataset, detects quality regressions, and sends real-time Slack alerts. Built with Python 3.11+, Ollama, SQLite, sentence-transformers, Streamlit, and Pydantic v2.
+---
+
+### 🤖 MRDS — Model Regression Detection System
+> A CI/CD-style pipeline that continuously tests LLM-powered classifiers against a 60-sample golden dataset, detects quality regressions, and fires real-time Slack alerts. Features a live Streamlit dashboard, HTML reports with trend charts, and GitHub Actions integration.
+
+`Python 3.11` `Ollama` `llama3.2` `Pydantic v2` `SQLite` `Streamlit` `sentence-transformers` `Docker` `GitHub Actions`
+
+---
+
+### 🔬 MedScan AI — Skin Lesion Classifier
+> Full-stack deep learning application for early screening of skin lesions. Classifies lesions as **Benign or Malignant** with 92.3% confidence using Transfer Learning (MobileNetV2) and a custom BlackHat OpenCV filter for automated hair removal — improving diagnostic feature extraction before model inference.
+
+| Detail | Value |
+|--------|-------|
+| 🎯 Confidence Score | 92.3% on validated test samples |
+| 📊 Validation Accuracy | 75.2% (early stopping at Epoch 22) |
+| 🗃️ Dataset | HAM10000 with class-weight balancing |
+| ⚡ Optimization | oneDNN on Intel Core i9 14th Gen |
+
+`TensorFlow 2.15` `Keras` `MobileNetV2` `OpenCV` `PIL` `Flask` `Tailwind CSS` `HAM10000`
 
 ---
 
@@ -42,18 +63,29 @@ class AmanGourkhede:
 
 <div align="center">
 
+**AI / ML**
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+
+**Backend / Infra**
+
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+
+**Frontend / Viz**
+
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
 </div>
 
@@ -76,11 +108,11 @@ class AmanGourkhede:
 
 ---
 
-## 🌱 What I'm Building
+## 🌱 What I'm Building Next
 
-- 🤖 **MRDS** — LLM regression detection pipeline with live Streamlit dashboard
 - 🔗 **RAG Systems** — Retrieval-Augmented Generation with local open-source models
-- 🧪 **AI Evals** — Golden dataset frameworks for testing LLM quality in production
+- 🧪 **AI Evals** — Expanding golden dataset frameworks for multi-task LLM testing
+- 🏥 **Medical AI** — Extending MedScan to multi-class lesion classification
 
 ---
 
