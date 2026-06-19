@@ -120,7 +120,7 @@ class AmanGourkhede:
 
 <div align="center">
 
-[![Gmail](https://img.shields.io/badge/Email-pushkargourkhede%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pushkargourkhede@gmail.com)
+[![Gmail](https://img.shields.io/badge/Email-amangourkhede03%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amangourkhede03@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-AmanGourkhede-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AmanGourkhede)
 
 </div>
