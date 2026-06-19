@@ -1,12 +1,21 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Aman%20Gourkhede&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20Engineer%20%7C%20Builder%20%7C%20Problem%20Solver&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Aman%20Dinesh%20Gourkhede&fontSize=38&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Machine%20Learning%20Engineer%20%7C%20Generative%20AI%20%7C%20Computer%20Vision&descAlignY=55&descSize=16" width="100%"/>
 
 </div>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6E57F7&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=AI+Engineer+%7C+Deep+Learning+%7C+LLM+Systems;Building+AI+that+works+in+the+real+world+%F0%9F%9A%80;From+Skin+Cancer+Detection+to+LLM+Eval+Pipelines)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=6E57F7&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=LangChain+%7C+LangGraph+%7C+RAG+%7C+Agentic+AI+%7C+Computer+Vision;From+Skin+Cancer+Detection+to+LLM+Eval+Pipelines+%F0%9F%9A%80;IBM+RAG+%26+Agentic+AI+Certified+%7C+Open+to+Junior+ML+Roles)](https://git.io/typing-svg)
+
+</div>
+
+<div align="center">
+
+[![Gmail](https://img.shields.io/badge/amangourkhede03%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:amangourkhede03@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-aman--gourkhede-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/aman-gourkhede)
+[![Portfolio](https://img.shields.io/badge/Portfolio-aman--gourkhede.vercel.app-6E57F7?style=flat-square&logo=vercel&logoColor=white)](https://aman-gourkhede-portfolio.vercel.app)
+[![Location](https://img.shields.io/badge/Nagpur%2C%20India-🇮🇳-FF9933?style=flat-square)](https://github.com/AmanGourkhede)
 
 </div>
 
@@ -16,14 +25,34 @@
 
 ```python
 class AmanGourkhede:
-    role       = "AI Engineer & Builder"
-    focus      = ["LLM Systems", "Deep Learning", "Medical AI", "Eval Pipelines"]
-    education  = "B.E. — Machine Learning Engineer (2025)"
-    currently  = "Building production-grade AI tools with open-source models"
-    learning   = ["LangChain", "RAG Systems", "MLOps"]
-    ask_me     = "Python, LLMs, Deep Learning, or building AI from scratch"
-    fun_fact   = "I built a skin cancer classifier before building an LLM eval pipeline 🔬"
+    title      = "Machine Learning Engineer | Generative AI | Computer Vision"
+    location   = "Nagpur, India"
+    education  = "B.Tech CSE — YCCE Nagpur (2025) | CGPA: 7.2"
+    certified  = "IBM RAG & Agentic AI Professional Certificate (Coursera)"
+    experience = "ML Intern @ ASW Technology Pvt. Ltd. (Jan–May 2025)"
+
+    expertise  = [
+        "Generative AI & LLMs (LangChain, LangGraph, RAG, Agentic AI)",
+        "Computer Vision (CNN, ResNet50, Transfer Learning, OpenCV)",
+        "MLOps (Docker, FastAPI, Flask, AWS, CI/CD)",
+        "LLM Evaluation Pipelines (MRDS — golden dataset + regression detection)",
+    ]
+
+    seeking    = "Junior ML Engineer role in a driven engineering team 🚀"
 ```
+
+---
+
+## 💼 Experience
+
+### 🏢 ASW Technology Pvt. Ltd. — Machine Learning Intern
+`Jan 2025 – May 2025`
+
+- Built a **Hybrid Recommendation System** combining TF-IDF content filtering + SVD collaborative filtering — solving the cold-start problem for new users
+- Optimized using **RMSE** and **Precision@K** across diverse user profiles
+- Deployed a production **REST API** (Flask + JWT Auth) containerized with **Docker** on AWS/Heroku — cutting deployment time by **~40%** via CI/CD
+
+`Python` `Flask` `Docker` `AWS` `Heroku` `JWT` `TF-IDF` `SVD` `Scikit-Surprise`
 
 ---
 
@@ -39,23 +68,30 @@ class AmanGourkhede:
 ---
 
 ### 🤖 MRDS — Model Regression Detection System
-> A CI/CD-style pipeline that continuously tests LLM-powered classifiers against a 60-sample golden dataset, detects quality regressions, and fires real-time Slack alerts. Features a live Streamlit dashboard, HTML reports with trend charts, and GitHub Actions integration.
+> CI/CD-style pipeline that continuously tests LLM classifiers against a 60-sample golden dataset, detects quality regressions, and fires real-time Slack alerts. Live Streamlit dashboard, HTML trend reports, and GitHub Actions integration.
 
 `Python 3.11` `Ollama` `llama3.2` `Pydantic v2` `SQLite` `Streamlit` `sentence-transformers` `Docker` `GitHub Actions`
 
 ---
 
-### 🔬 MedScan AI — Skin Lesion Classifier
-> Full-stack deep learning application for early screening of skin lesions. Classifies lesions as **Benign or Malignant** with 92.3% confidence using Transfer Learning (MobileNetV2) and a custom BlackHat OpenCV filter for automated hair removal — improving diagnostic feature extraction before model inference.
+### 🔬 Skin Cancer Detection System — B.Tech Mega Project
+> Achieved **93.52% accuracy** across 7 lesion categories using a **CNN + ResNet50 Transfer Learning ensemble** with averaged probability outputs — surpassing single-model baselines by ~8%. Includes a custom **Digital Hair Removal** pipeline via OpenCV morphological operations.
 
 | Detail | Value |
 |--------|-------|
-| 🎯 Confidence Score | 92.3% on validated test samples |
-| 📊 Validation Accuracy | 75.2% (early stopping at Epoch 22) |
-| 🗃️ Dataset | HAM10000 with class-weight balancing |
-| ⚡ Optimization | oneDNN on Intel Core i9 14th Gen |
+| 🎯 Accuracy | 93.52% across 7 lesion categories |
+| 📈 Improvement | +8% over single-model baseline |
+| 🗃️ Dataset | HAM10000 + ISIC 2024 |
+| 🔧 Key technique | CNN + ResNet50 ensemble + BlackHat hair removal |
 
-`TensorFlow 2.15` `Keras` `MobileNetV2` `OpenCV` `PIL` `Flask` `Tailwind CSS` `HAM10000`
+`TensorFlow` `Keras` `ResNet50` `OpenCV` `CNN` `Transfer Learning` `Data Augmentation` `HAM10000`
+
+---
+
+### 🧬 Jarvis — Personal AI Agent
+> Modular production-style **LangChain + LangGraph** agent running multi-step agentic workflows (research, summarization, task automation) with a pluggable tool-use framework. Integrated **RAG with ChromaDB** for Q&A over private files with persistent long-term memory via embedding-based retrieval.
+
+`LangChain` `LangGraph` `ChromaDB` `RAG` `Agentic AI` `Vector Databases` `Web Search` `Python`
 
 ---
 
@@ -63,29 +99,30 @@ class AmanGourkhede:
 
 <div align="center">
 
-**AI / ML**
+**Languages**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+
+**AI / ML & Generative AI**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 
-**Backend / Infra**
+**MLOps & Backend**
 
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-
-**Frontend / Viz**
-
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 
 </div>
 
@@ -108,22 +145,21 @@ class AmanGourkhede:
 
 ---
 
-## 🌱 What I'm Building Next
+## 🎓 Certifications & Education
 
-- 🔗 **RAG Systems** — Retrieval-Augmented Generation with local open-source models
-- 🧪 **AI Evals** — Expanding golden dataset frameworks for multi-task LLM testing
-- 🏥 **Medical AI** — Extending MedScan to multi-class lesion classification
+| | |
+|---|---|
+| 📜 **IBM RAG & Agentic AI Professional Certificate** | Coursera — In Progress (10-course: RAG, LangChain, LangGraph, CrewAI, MCP, Vector DBs) |
+| 🎓 **B.Tech — Computer Science & Engineering** | YCCE Nagpur · 2022–2025 · CGPA: 7.2/10 |
+| 📘 **Diploma — Computer Engineering** | Govt. Polytechnic Nagpur · 2019–2022 · 87% |
 
 ---
 
-## 📬 Connect With Me
+## 🌱 What I'm Building Next
 
-<div align="center">
-
-[![Gmail](https://img.shields.io/badge/Email-amangourkhede03%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amangourkhede03@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-AmanGourkhede-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AmanGourkhede)
-
-</div>
+- 🧬 Extending Skin Cancer Detection to real-time clinical deployment with explainability (Grad-CAM)
+- 🔗 Completing IBM RAG & Agentic AI certification (LangGraph, CrewAI, MCP)
+- 📡 Adding multi-agent orchestration to Jarvis
 
 ---
 
