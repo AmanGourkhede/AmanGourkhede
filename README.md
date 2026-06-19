@@ -29,7 +29,6 @@ class AmanGourkhede:
     location   = "Nagpur, India"
     education  = "B.Tech CSE — YCCE Nagpur (2025) | CGPA: 7.2"
     certified  = "IBM RAG & Agentic AI Professional Certificate (Coursera)"
-    experience = "ML Intern @ ASW Technology Pvt. Ltd. (Jan–May 2025)"
 
     expertise  = [
         "Generative AI & LLMs (LangChain, LangGraph, RAG, Agentic AI)",
@@ -40,19 +39,6 @@ class AmanGourkhede:
 
     seeking    = "Junior ML Engineer role in a driven engineering team 🚀"
 ```
-
----
-
-## 💼 Experience
-
-### 🏢 ASW Technology Pvt. Ltd. — Machine Learning Intern
-`Jan 2025 – May 2025`
-
-- Built a **Hybrid Recommendation System** combining TF-IDF content filtering + SVD collaborative filtering — solving the cold-start problem for new users
-- Optimized using **RMSE** and **Precision@K** across diverse user profiles
-- Deployed a production **REST API** (Flask + JWT Auth) containerized with **Docker** on AWS/Heroku — cutting deployment time by **~40%** via CI/CD
-
-`Python` `Flask` `Docker` `AWS` `Heroku` `JWT` `TF-IDF` `SVD` `Scikit-Surprise`
 
 ---
 
