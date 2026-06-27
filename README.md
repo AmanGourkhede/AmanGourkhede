@@ -165,7 +165,7 @@ I specialize in the full stack of modern AI engineering: from local LLM inferenc
 | IBM RAG & Agentic AI Professional Certificate | Coursera | In Progress |
 | LLMOps Professional Certificate | Duke University · Coursera | Completed |
 | B.Tech — Computer Science & Engineering | YCCE Nagpur · CGPA 7.2 | 2025 |
-| Diploma — Computer Engineering | Govt. Polytechnic Nagpur · 87% | 2022 |
+| Diploma — Computer Engineering | Govt. Polytechnic Nagpur · 88% | 2022 |
 
 </div>
 
