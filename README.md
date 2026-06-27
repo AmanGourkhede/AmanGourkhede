@@ -23,25 +23,18 @@
 
 ## 🧠 About Me
 
-```python
-class AmanGourkhede:
-    title      = "Machine Learning Engineer | Generative AI | Multi-Agent AI"
-    location   = "Nagpur, India"
-    education  = "B.Tech CSE — YCCE Nagpur (2025) | CGPA: 7.2"
-    certified  = ["IBM RAG & Agentic AI Professional Certificate (Coursera)",
-                  "LLMOps — Duke University (Coursera)"]
+B.Tech CSE graduate from YCCE Nagpur, specializing in **Generative AI, Multi-Agent Systems, and Local LLM Inference**.
+I build production-grade AI systems that verify what they say — not just systems that sound smart.
 
-    expertise  = [
-        "Multi-Agent AI Orchestration — built from scratch, no LangChain",
-        "Local LLM Inference with GPU (Ollama + RTX 4070, 100% GPU utilized)",
-        "Claim Verification Pipelines — fact checking at 65% confidence threshold",
-        "RAG, Agentic AI, ChromaDB, Redis, Pydantic, Span-based Observability",
-        "Computer Vision (CNN, ResNet50, Transfer Learning, OpenCV)",
-        "MLOps (Docker, FastAPI, Flask, AWS, CI/CD, GitHub Actions)",
-    ]
+- 🤖 **Multi-Agent AI** — orchestration pipelines built from scratch, no LangChain
+- ⚡ **Local LLM Inference** — Ollama + RTX 4070 GPU, 100% GPU utilized
+- ✅ **Claim Verification** — fact checking at 65% confidence threshold before any output
+- 🧠 **RAG & Agentic AI** — ChromaDB, Redis, Pydantic, span-based observability
+- 👁️ **Computer Vision** — CNN, ResNet50, Transfer Learning, OpenCV
+- 🐳 **MLOps** — Docker, FastAPI, Flask, AWS, CI/CD, GitHub Actions
 
-    currently  = "Building production-grade AI systems that verify what they say 🔬"
-```
+📜 **IBM RAG & Agentic AI Certificate** (Coursera) &nbsp;|&nbsp; 📜 **LLMOps Certificate — Duke University** (Coursera)
+📍 Nagpur, India &nbsp;|&nbsp; 🌐 Open to remote roles worldwide
 
 ---
 
