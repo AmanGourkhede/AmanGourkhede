@@ -29,7 +29,7 @@ I specialize in the full stack of modern AI engineering: from local LLM inferenc
 
 | | |
 |---|---|
-| 🎓 | B.Tech CSE — YCCE Nagpur · CGPA 7.2 &nbsp;\|&nbsp; Diploma — Govt. Polytechnic Nagpur · 87% |
+| 🎓 | B.Tech CSE — YCCE Nagpur · CGPA 7.2 &nbsp;\|&nbsp; Diploma — Govt. Polytechnic Nagpur · 88% |
 | 📜 | IBM RAG & Agentic AI Certificate (Coursera) &nbsp;\|&nbsp; LLMOps — Duke University (Coursera) |
 | 📍 | Nagpur, India — open to remote roles worldwide |
 
