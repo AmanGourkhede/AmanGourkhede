@@ -95,6 +95,30 @@ class AmanGourkhede:
 
 ---
 
+### 📚 RAG From Scratch — Complete Local Document Q&A System
+
+> **Built a full Retrieval-Augmented Generation pipeline from zero — no LangChain, no frameworks, no paid APIs.**
+> Chat with your own PDF/text documents using a completely local, offline AI system.
+
+[![rag-from-scratch](https://github-readme-stats.vercel.app/api/pin/?username=AmanGourkhede&repo=rag-from-scratch-&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6E57F7&icon_color=6E57F7)](https://github.com/AmanGourkhede/rag-from-scratch-)
+
+| Component | What It Does |
+|-----------|-------------|
+| 📄 **Loader** | Reads PDF and TXT documents from local storage |
+| ✂️ **Chunker** | Splits text into overlapping chunks for better context retrieval |
+| 🔢 **Embedder** | Converts chunks to vectors using `all-MiniLM-L6-v2` (HuggingFace) |
+| 🗄️ **VectorStore** | Stores and indexes vectors in ChromaDB |
+| 🔍 **Retriever** | Semantic nearest-neighbour search — finds most relevant chunks |
+| 🤖 **Generator** | Feeds retrieved context to Ollama LLM to produce grounded answers |
+| 📊 **Evaluator** | RAGAS metrics — faithfulness, answer relevancy, context precision |
+
+**Why build RAG from scratch?**
+Most developers use LangChain's `RetrievalQA` and treat it as a black box. Building each component individually — chunker, embedder, retriever, generator — proves you understand what's actually happening inside those abstractions. This is what separates engineers from users.
+
+`Python` `Ollama` `llama3.2:1b` `ChromaDB` `sentence-transformers` `HuggingFace` `RAGAS` `PyMuPDF`
+
+---
+
 ### 🔬 Skin Cancer Detection System — B.Tech Mega Project
 
 > Achieved **93.52% accuracy** across 7 lesion categories using **CNN + ResNet50 ensemble** — surpassing single-model baselines by ~8%. Custom Digital Hair Removal pipeline via OpenCV morphological operations.
