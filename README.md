@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=6E57F7&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=100&lines=Multi-Agent+AI+%7C+RAG+%7C+LLM+Inference+%7C+Claim+Verification;Built+a+Deep+Research+Engine+from+scratch+%E2%80%94+no+LangChain+%F0%9F%9A%80;IBM+RAG+%26+Agentic+AI+Certified+%7C+RTX+4070+GPU+Local+LLMs)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=6E57F7&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=100&lines=PyTorch+%7C+LangChain+%7C+ChromaDB+%7C+Ollama+%7C+Docker+%7C+FastAPI;RAG+%7C+Agentic+AI+%7C+Multi-Agent+Systems+%7C+Computer+Vision;IBM+RAG+%26+Agentic+AI+Certified+%7C+LLMOps+%E2%80%94+Duke+University)](https://git.io/typing-svg)
 
 </div>
 
