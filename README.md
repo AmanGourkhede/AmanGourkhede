@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Aman%20Dinesh%20Gourkhede&fontSize=38&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Machine%20Learning%20Engineer%20%7C%20Generative%20AI%20%7C%20Computer%20Vision&descAlignY=55&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Aman%20Dinesh%20Gourkhede&fontSize=38&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Machine%20Learning%20Engineer%20%7C%20Generative%20AI%20%7C%20Multi-Agent%20AI%20%7C%20Computer%20Vision&descAlignY=55&descSize=16" width="100%"/>
 
 </div>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=6E57F7&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=LangChain+%7C+LangGraph+%7C+RAG+%7C+Agentic+AI+%7C+Computer+Vision;From+Skin+Cancer+Detection+to+LLM+Eval+Pipelines+%F0%9F%9A%80;IBM+RAG+%26+Agentic+AI+Certified+%7C+Open+to+Junior+ML+Roles)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=6E57F7&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=100&lines=Multi-Agent+AI+%7C+RAG+%7C+LLM+Inference+%7C+Claim+Verification;Built+a+Deep+Research+Engine+from+scratch+%E2%80%94+no+LangChain+%F0%9F%9A%80;IBM+RAG+%26+Agentic+AI+Certified+%7C+RTX+4070+GPU+Local+LLMs)](https://git.io/typing-svg)
 
 </div>
 
@@ -25,71 +25,96 @@
 
 ```python
 class AmanGourkhede:
-    title      = "Machine Learning Engineer | Generative AI | Computer Vision"
+    title      = "Machine Learning Engineer | Generative AI | Multi-Agent AI"
     location   = "Nagpur, India"
     education  = "B.Tech CSE — YCCE Nagpur (2025) | CGPA: 7.2"
-    certified  = "IBM RAG & Agentic AI Professional Certificate (Coursera)"
+    certified  = ["IBM RAG & Agentic AI Professional Certificate (Coursera)",
+                  "LLMOps — Duke University (Coursera)"]
 
     expertise  = [
-        "Generative AI & LLMs (LangChain, LangGraph, RAG, Agentic AI)",
+        "Multi-Agent AI Orchestration — built from scratch, no LangChain",
+        "Local LLM Inference with GPU (Ollama + RTX 4070, 100% GPU utilized)",
+        "Claim Verification Pipelines — fact checking at 65% confidence threshold",
+        "RAG, Agentic AI, ChromaDB, Redis, Pydantic, Span-based Observability",
         "Computer Vision (CNN, ResNet50, Transfer Learning, OpenCV)",
-        "MLOps (Docker, FastAPI, Flask, AWS, CI/CD)",
-        "LLM Evaluation Pipelines (MRDS — golden dataset + regression detection)",
+        "MLOps (Docker, FastAPI, Flask, AWS, CI/CD, GitHub Actions)",
     ]
 
-    seeking    = "Junior ML Engineer role in a driven engineering team 🚀"
+    currently  = "Building production-grade AI systems that verify what they say 🔬"
 ```
 
 ---
 
 ## 🚀 Featured Projects
 
-<div align="center">
+### ⭐ Multi-Agent Deep Research Engine — HIGHLIGHT PROJECT
+> **7-phase AI research pipeline built entirely from scratch — no LangChain, no paid APIs.**
+> Runs 100% locally on RTX 4070 GPU using Ollama. Every fact is verified before it reaches the writer.
 
-[![MRDS](https://github-readme-stats.vercel.app/api/pin/?username=AmanGourkhede&repo=MRDS&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6E57F7&icon_color=6E57F7)](https://github.com/AmanGourkhede/MRDS)
-[![MedScan AI](https://github-readme-stats.vercel.app/api/pin/?username=AmanGourkhede&repo=skin-cancer-detection-ai&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6E57F7&icon_color=6E57F7)](https://github.com/AmanGourkhede/skin-cancer-detection-ai)
+[![multi-agent-deep-research](https://github-readme-stats.vercel.app/api/pin/?username=AmanGourkhede&repo=multi-agent-deep-research&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6E57F7&icon_color=6E57F7)](https://github.com/AmanGourkhede/multi-agent-deep-research)
 
-</div>
+| Phase | What Happens |
+|-------|-------------|
+| 🌐 **Phase 1 — Scrape** | 4 search queries × 5 pages = 20 web pages fetched via BeautifulSoup |
+| 🔍 **Phase 2 — Extract** | Individual factual claims pulled from every page |
+| ✅ **Phase 3 — Verify** | Each claim scored by LLM against research evidence — 65% confidence threshold |
+| 🎯 **Phase 4 — Judge** | Relevance scoring against original topic — 60% threshold, sorted best-first |
+| 📊 **Phase 5 — Diagram** | AI finds numerical data, Plotly renders bar/line/pie charts as PNG |
+| ✍️ **Phase 6 — Write** | 7-section 2000+ word article using ONLY verified, relevant facts |
+| 🧑‍⚖️ **Phase 7 — Edit** | Senior editor agent reviews, fixes weak sections, improves conclusion |
+| 📄 **Export** | Self-contained HTML (base64 charts embedded) + PDF output |
+
+**Key engineering decisions:**
+- `format=json_schema` passed to Ollama — model physically cannot generate wrong JSON structure
+- JSON boundary extraction with depth counter — handles any nesting level
+- 3-attempt retry with error feedback to model — self-correction loop
+- Two quality gates before writer: verification (65%) AND relevance (60%)
+- Writer never sees raw web content — only verified, relevant facts
+- Span-based observability with step-by-step trace replay
+- Human-in-the-loop escalation on low confidence tasks
+- Redis short-term + ChromaDB long-term memory
+
+`Python` `Ollama` `dolphin-llama3:8b` `ChromaDB` `Redis` `Pydantic v2` `Plotly` `BeautifulSoup` `Streamlit` `Docker` `RTX 4070 GPU`
 
 ---
 
 ### 🤖 MRDS — Model Regression Detection System
-> A production-grade **CI/CD eval pipeline** for LLM-powered classifiers — built entirely from scratch with local open-source models. Tests an email support classifier against a **hand-crafted 60-sample golden dataset** (4 categories, 3 difficulty tiers, edge cases: typos, sarcasm, multilingual), detects quality regressions across prompt versions, and alerts the team in real time.
+
+> A production-grade **CI/CD eval pipeline** for LLM-powered classifiers — tests against a **hand-crafted 60-sample golden dataset**, detects quality regressions via moving averages, and alerts the team in real time via Slack.
 
 | Detail | Value |
 |--------|-------|
 | 📊 Golden Dataset | 60 samples — easy / medium / hard, 4 categories |
-| 🔍 Scoring Signals | Category match + LLM-as-judge (1–5) + BGE embedding cosine similarity |
-| 📉 Regression Detection | 7-run moving average drift detection + per-sample diff |
+| 🔍 Scoring | Category match + LLM-as-judge (1–5) + BGE embedding cosine similarity |
+| 📉 Regression Detection | 7-run moving average drift detection |
 | 🚨 Alerting | Slack Block Kit alerts with tenacity retry |
-| 📈 Dashboard | Live Streamlit UI with Plotly trend charts, auto-refresh |
-| 🐳 Infra | Docker multi-stage build, GitHub Actions CI, git pre-push hook |
-| 🧠 Model | llama3.2:1b via Ollama — fully local, no API keys |
-| 🔁 Retry Pattern | JSON nudge retry (3 attempts) for small-model JSON compliance |
+| 📈 Dashboard | Live Streamlit UI with Plotly trend charts |
+| 🐳 Infra | Docker, GitHub Actions CI, git pre-push hook |
 
-`Python 3.11` `Ollama` `llama3.2` `Pydantic v2` `SQLite` `Streamlit` `Plotly` `sentence-transformers` `Docker` `GitHub Actions` `Jinja2` `asyncio`
+`Python` `Ollama` `Pydantic v2` `SQLite` `Streamlit` `Plotly` `sentence-transformers` `Docker` `GitHub Actions`
 
 ---
 
 ### 🔬 Skin Cancer Detection System — B.Tech Mega Project
-> Achieved **93.52% accuracy** across 7 lesion categories using a **CNN + ResNet50 Transfer Learning ensemble** with averaged probability outputs — surpassing single-model baselines by ~8%. Includes a custom **Digital Hair Removal** pipeline via OpenCV morphological operations.
+
+> Achieved **93.52% accuracy** across 7 lesion categories using **CNN + ResNet50 ensemble** — surpassing single-model baselines by ~8%. Custom Digital Hair Removal pipeline via OpenCV morphological operations.
 
 | Detail | Value |
 |--------|-------|
 | 🎯 Accuracy | 93.52% across 7 lesion categories |
 | 📈 Improvement | +8% over single-model baseline |
 | 🗃️ Dataset | HAM10000 + ISIC 2024 |
-| 🔧 Key technique | CNN + ResNet50 ensemble + BlackHat hair removal |
 | 🚀 Live Demo | [🤗 Try it on Hugging Face](https://huggingface.co/spaces/AmanDinesh/skin-cancer-detection) |
 
-`TensorFlow` `Keras` `ResNet50` `OpenCV` `CNN` `Transfer Learning` `Data Augmentation` `HAM10000`
+`TensorFlow` `Keras` `ResNet50` `OpenCV` `CNN` `Transfer Learning` `HAM10000`
 
 ---
 
 ### 🧬 Jarvis — Personal AI Agent
-> Modular production-style **LangChain + LangGraph** agent running multi-step agentic workflows (research, summarization, task automation) with a pluggable tool-use framework. Integrated **RAG with ChromaDB** for Q&A over private files with persistent long-term memory via embedding-based retrieval.
 
-`LangChain` `LangGraph` `ChromaDB` `RAG` `Agentic AI` `Vector Databases` `Web Search` `Python`
+> Modular **LangChain + LangGraph** agent with multi-step workflows, RAG via ChromaDB, and persistent long-term memory. Pluggable tool-use framework (web search, file manager, code executor).
+
+`LangChain` `LangGraph` `ChromaDB` `RAG` `Agentic AI` `Vector Databases` `Python`
 
 ---
 
@@ -121,6 +146,8 @@ class AmanGourkhede:
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-6E57F7?style=for-the-badge&logoColor=white)
 
 </div>
 
@@ -147,17 +174,18 @@ class AmanGourkhede:
 
 | | |
 |---|---|
-| 📜 **IBM RAG & Agentic AI Professional Certificate** | Coursera — In Progress (10-course: RAG, LangChain, LangGraph, CrewAI, MCP, Vector DBs) |
+| 📜 **IBM RAG & Agentic AI Professional Certificate** | Coursera — 10-course: RAG, LangChain, LangGraph, CrewAI, MCP, Vector DBs |
+| 📜 **LLMOps Professional Certificate** | Duke University via Coursera |
 | 🎓 **B.Tech — Computer Science & Engineering** | YCCE Nagpur · 2022–2025 · CGPA: 7.2/10 |
 | 📘 **Diploma — Computer Engineering** | Govt. Polytechnic Nagpur · 2019–2022 · 87% |
 
 ---
 
-## 🌱 What I'm Building Next
+## 🌱 What I'm Working On
 
-- 🧬 Extending Skin Cancer Detection to real-time clinical deployment with explainability (Grad-CAM)
-- 🔗 Completing IBM RAG & Agentic AI certification (LangGraph, CrewAI, MCP)
-- 📡 Adding multi-agent orchestration to Jarvis
+- 🔬 Adding async parallel verification to the deep research engine (5× speed gain)
+- 📊 Source credibility scoring — weight .gov/.edu over random blogs
+- 📜 Completing IBM RAG & Agentic AI certification
 
 ---
 
